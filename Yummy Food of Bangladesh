@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy Food of Bangladesh</title>
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #e74c3c;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        nav {
+            background-color: #c0392b;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+
+        nav a.active {
+            color: #3498db;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        article {
+            margin-bottom: 20px;
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        article img {
+            width: 100%;
+            border-bottom: 1px solid #ddd;
+        }
+
+        article h2 {
+            padding: 15px;
+            margin: 0;
+            font-size: 20px;
+        }
+
+        article p {
+            padding: 0 15px 15px 15px;
+            margin: 0;
+            font-size: 14px;
+            color: #555;
+        }
+
+        .secondary-section {
+            background-color: #ecf0f1;
+        }
+
+        .secondary-section article {
+            background-color: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            margin: 10px;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        @media only screen and (max-width: 600px) {
+            h1 {
+                font-size: 20px;
+            }
+
+            nav a {
+                font-size: 14px;
+            }
+
+            article h2 {
+                font-size: 18px;
+            }
+
+            article p {
+                font-size: 12px;
+            }
+            h4 {
+        color: black;
+        text-decoration: underline;
+    }
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Yummy Food of Bangladesh</h1>
+        <p> <b> A list of top Bangladeshi food including main dishes, drinks, 
+            and deserts someone must try while visiting Bangladesh for an authentic 
+            Bangladesh experience. </b> </p>
+    </header>
+
+    <nav>
+        <a href="#" class="active">Home</a>
+        <a href="#">Recipes</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <h4> <u> Bangladeshi Food </u> </h4>
+       <p> <b> Bangladesh is famous for its delicious food and desserts. 
+        The specialty of Bangladeshi food is they are spicy. Rice is the main Bangladeshi food. 
+        Rice, fish curry, and lentil is the most common traditional Bangladeshi food for the general people. 
+        Bangladesh is also famous for its desserts. You will find dozens of sweets rice cakes, rice puddings, 
+        and many other desserts in Bangladesh, mostly made from rice and cow mlik, 
+        It is a paradise for food lovers. </b> </p>
+    <section>
+        <article>
+            <img src="istockphoto-1440977983-412x412.jpg" 
+            alt="Delicious Kacchi Biryani" width="320" height="520">
+
+            <h1><u> Bangladeshi Main Dishes </u></h1>
+            <h2><u> Kachchi Biryani - Special Bangladeshi Food </u></h2>
+            <p>Kachchi biryani is usually a featured dish for weddings and social gatherings and celebrations.
+                 Layers of meat, rice, and potatoes are infused with warm and delectable blends of aromatic 
+                 spices to prepare Kachchi biryani. The term "Kachchi" means raw referring to the biryani 
+                 ingredients being combined raw in layers instead of first cooking the meat or rice separately.
+                  Traditionally, Kachchi biryani is cooked in a clay oven and the cooking pot is usually sealed
+                   with flour dough to allow the biryani to cook in its own steam. The sealed pot is not 
+                   opened until the biryani is ready to be served. A simple salad is sufficient as a side 
+                   for Kachchi biryani but traditionally Shami Kabab and chutney are served alongside. 
+                   Also very popular is to have Borhani with Kachchi biryani, which is a traditional yogurt 
+                   drink. Kachchi Biryani is the most popular formal Bangladeshi food that you must try at 
+                   least once while visiting Bangladesh.</p>
+        </article>
+
+        <article>
+            <img src="Grill Chicken.jpeg" alt="Bangladeshi Evening Snacks" width="320" height="320">
+            <h1> <u>Bangladeshi Evening Snacks </u> </h1>
+            <h2><u>Grilled Chicken with Naan Roti </u></h2>
+            <p>Grilled Chicken has become very popular in Bangladesh recently. You can find mouth- watering 
+                grilled chicken on almost every street. Chicken is marinated with spices and later grilled 
+                on the griller. The chicken is super moist inside but crunchy bits of chars outside make 
+                them taste heavenly. Grilled chickens are normally served with Naan Rooti (an oven-baked 
+                flatbread), mayonnaise, and simple salads. This is an evening snack, mostly available after 
+                5.00 pm at the restaurants.</p>
+        </article>
+    </section>
+
+    <!-- New section for another category -->
+    <section class="secondary-section">
+        <article>
+            <img src="Misti doi.jpeg" alt="Special Desserts">
+            <h1> <u>Bangladeshi Desserts</u></h1>
+                <h2> <u>Misti Doi (Sweet Yogurt)</u></h2>
+            <p>Sweet Yogurt is a traditional Bengali dessert item that is locally known as Mishti Doi.
+                 It is a healthy low-fat dessert. No Bengali occasion is complete without Sweet Yogurt
+                  and Sweets. It is not your regular yogurt. Also, it is not at all runny as curd. 
+                  It is thick, dense, and more like creamy cheesecake. Misti Doi is made with milk and sugar 
+                  or jaggery. It differs from plain yogurt because of the technique of preparation. 
+                  It is prepared by boiling milk until it is slightly thickened, sweetening it with sugar or 
+                  jaggery, and allowing the milk to ferment overnight. Earthenware is always used as the 
+                  container for making Misti Doi because the gradual evaporation of water through its porous 
+                  walls not only further thickens the yogurt, but also produces the right temperature for the 
+                  growth of the culture.</p>
+        </article>
+
+        <article>
+            <img src="fruits-of-bangladesh.webp" alt="Healthy Choices">
+            <h1> <u>Infographic: The fruits of Bangladesh</u></h2>
+            <p>The most grown fruits in Bangladesh are mango, jackfruit, blackberry, pineapple, banana, 
+                litchi, lemon, guava, berry, papaya, tamarind, melon, watermelon, cashew nut, palmyra, 
+                and blueberry.In Bangladesh, the months of May, June, and July are defined as fruit festival 
+                months since nearly all major and minor fruits are mature and available during these months.</p>
+        </article>
+    </section>
+
+    <footer>
+        &copy; 2024 Yummy Food of Bangladesh. All rights reserved.
+    </footer>
+
+</body>
+
+</html>
